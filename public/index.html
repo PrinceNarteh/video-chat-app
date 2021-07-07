@@ -22,8 +22,8 @@
                         </p>
                     </div>
                     <div class="personal_code_value_container">
-                        <p class='personal_code_value_paragraph' id='personal_code_paragraph'>DDDDDD</p>
-                        <button class='personal_code_copy_button' id='personal_code_copy_button'>
+                        <p class='personal_code_value_paragraph' id='personalCodeParagraph'>DDDDDD</p>
+                        <button class='personal_code_copy_button' id='personalCodeCopyButton'>
                             <img src='./images/copyButton.png'></img>
                         </button>
                     </div>
@@ -32,13 +32,13 @@
                 <div class='personal_code_connecting_container'>
                     <p class='personal_code_connecting_paragraph'>Personal Code</p>
                     <div class='personal_code_connecting_input_container'>
-                        <input class='personal_code_input' id='personal_code_input'></input>
+                        <input class='personal_code_input' id='personalCodeInput'></input>
                     </div>
                     <div class='personal_code_connecting_buttons_container'>
-                        <button class='connecting_button' id='personal_code_chat_button'>
+                        <button class='connecting_button' id='personalCodeChatButton'>
                             <img src='./images/chatButton.png' class='connecting_buttons_image'></img>
                         </button>
-                        <button class='connecting_button' id='personal_code_video_button'>
+                        <button class='connecting_button' id='personalCodeVideoButton'>
                             <img src='./images/videoButton.png' class='connecting_buttons_image'></img>
                         </button>
                     </div>
@@ -117,6 +117,11 @@
         </div>    
         </div>
         <script src='/socket.io/socket.io.js'></script>
+        <script src='./js/constants.js' type='module'></script>
+        <script src='./js/ui.js' type='module'></script>
+        <script src='./js/wss.js' type='module'></script>
+        <script src='./js/store.js' type='module'></script>
+        <script src='./js/webRTCHandler.js' type='module'></script>
         <script src='./js/main.js' type='module'></script>
     </body>
 </html>

@@ -42,7 +42,7 @@ body {
 
 .dashboard_container {
   width: 25%;
-  height: 100%;
+  min-height: 100%;
   background: linear-gradient(168.68deg, #0052c9 1.12%, #0a91db 100%);
   display: flex;
   flex-direction: column;
@@ -107,7 +107,7 @@ body {
 }
 
 .personal_code_value_paragraph {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -148,6 +148,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.5);
   color: white;
   padding: 0 20px;
+  font-size: 16px;
 }
 
 .personal_code_connecting_buttons_container {
